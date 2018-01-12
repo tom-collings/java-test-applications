@@ -1,0 +1,3 @@
+buildpacks:
+  - https://github.com/tom-collings/simple-buildpack.git
+  - https://github.com/tom-collings/tomee-buildpack.git

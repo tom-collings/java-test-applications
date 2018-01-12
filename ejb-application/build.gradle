@@ -21,3 +21,11 @@ dependencies {
     compile 'com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider'
     compile 'org.apache.openejb:javaee-api'
 }
+
+
+war {
+    from('src/resources') {
+        include 'multi-buildpack.yml'
+        into('/')
+    }
+}
