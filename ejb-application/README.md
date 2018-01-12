@@ -36,3 +36,9 @@ name2 = val2
     ></resources
 >
 ```
+
+Lastly, if you curl the /my-type/check-my-type endpoint of the application, you should see
+
+```
+name1 = val1 and name2 = val2
+```
